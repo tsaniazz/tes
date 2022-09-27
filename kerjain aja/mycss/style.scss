@@ -1,0 +1,196 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body .navbar-zahra{
+    background-color: #EAEEFE;
+}
+// navbar
+.navbar-zahra{
+    nav{
+        .collapse{
+            ul{
+                .nav-item{
+                    .nav-link{
+                        margin-left: 30px;
+                        font-weight: 500;
+                        font-size: 20px;
+                        color:#6D6F77;
+                    }:hover{
+                        color:rgb(8, 8, 8);
+                    }
+                    .active{
+                        color:#4262D2;
+                    }
+                }
+            }
+        }
+    }
+}
+// end navbar
+
+// bisnis section
+.zahra-section{
+    margin-top: 60px;
+    .row{
+        .zahra{
+            .btn-primary{
+                font-weight: 500;
+                font-size: 18px;
+                background-color: #7F6DF0;
+                border-radius: 50px;
+                border-color: #FFFFFF;
+                padding-top: 14px;
+                padding-bottom: 15px;
+                padding-right: 35px;
+                padding-left: 36px;
+             }
+             .zahra-title{
+                color: #7F6DF0;
+                font-weight: 700;
+                font-size: 40px;
+                margin-top: 34px;
+             }
+             .img-fluid{
+                padding-top: 3px;
+                padding-bottom: 10px;
+             }
+             .desc{
+                color: #676E87;
+                font-weight: 400;
+                font-size: 14px;
+                padding-bottom: 15px;
+             }.punya-zahra{
+                .btn-mulai{
+                    background: #FF6632;
+                    border-radius: 5px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    padding-top: 11px;
+                    padding-bottom: 11px;
+                    padding-right: 25px;
+                    padding-left: 26px;
+
+                }
+                .klik-link{
+                    color: #676E87;
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding-left: 63px;
+                }
+             }
+             @media(max-width: 912px) {
+                .punya-zahra{
+                    display: none;
+                }
+             }
+        }
+    }
+}
+
+// end bisnis section
+
+// percaya
+.zahra-percaya{
+    margin-top: 115px;
+    .row{
+        .judul{
+            h3{
+                color: #48494F;
+                font-weight: 600;
+                font-size: 34px;
+            }
+            .text{
+                padding-top: 30px;
+                color: #676E87;
+                font-weight: 400;
+                font-size: 16px;
+            }
+            .klik-aja{
+                color: #676E87;
+                font-weight: 600;
+                font-size: 16px;
+                padding-top: 30px;
+                padding-bottom: 199px;
+            }
+        }
+    }
+}
+// end percaya
+
+// pics
+.pics-section{
+    .header-pics{
+        padding-top: 160px;
+        padding-bottom: 100px;
+         h3{
+            color: #48494F;
+            font-weight: 600;
+            font-size: 38px;
+        }  
+    }
+}
+.pics{
+    .row{
+        .kartu{
+            .card-uiux{
+                background: #F0F5FF;
+                border-radius: 20px;
+                border: #FFFFFF;
+            }
+            .card-service{
+                background-color: #F5F0FF;
+                border-radius: 20px;
+                border: #FFFFFF;
+            }
+            .card-body{
+                .user-img{
+                    padding-top: 39px;
+                    width:180px;
+                }
+                .nama{
+                    font-size: 36px;
+                    font-weight: 500;
+                    padding-top: 37px;
+                    margin-bottom: 49px;
+                    color: #48494F;
+                    ;
+                }
+                .card-text{
+                    color: #676E87;
+                    font-weight: 500;
+                    font-size: 19px;
+                    padding-bottom: 40px;
+                }
+            }
+            .card-training{
+                background: #F1FADC;
+                border-radius: 20px;
+                border: #FFFFFF;
+                .card-body{
+                    .user-img{
+                        padding-top: 39px;
+                        width:180px;
+                    }
+                    .nama{
+                        font-size: 36px;
+                        font-weight: 500;
+                        padding-top: 37px;
+                        margin-bottom: 28px;
+                        color: #48494F;
+                        
+                    }
+                    .card-text{
+                        color: #676E87;
+                        font-weight: 500;
+                        font-size: 19px;
+                        padding-bottom: 32px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+// end pics

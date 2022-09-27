@@ -1,0 +1,155 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body .navbar-zahra {
+  background-color: #EAEEFE;
+}
+
+.navbar-zahra nav .collapse ul .nav-item .nav-link {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #6D6F77;
+}
+.navbar-zahra nav .collapse ul .nav-item :hover {
+  color: rgb(8, 8, 8);
+}
+.navbar-zahra nav .collapse ul .nav-item .active {
+  color: #4262D2;
+}
+
+.zahra-section {
+  margin-top: 60px;
+}
+.zahra-section .row .zahra .btn-primary {
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #7F6DF0;
+  border-radius: 50px;
+  border-color: #FFFFFF;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  padding-left: 36px;
+}
+.zahra-section .row .zahra .zahra-title {
+  color: #7F6DF0;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 34px;
+}
+.zahra-section .row .zahra .img-fluid {
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+.zahra-section .row .zahra .desc {
+  color: #676E87;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.zahra-section .row .zahra .punya-zahra .btn-mulai {
+  background: #FF6632;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 25px;
+  padding-left: 26px;
+}
+.zahra-section .row .zahra .punya-zahra .klik-link {
+  color: #676E87;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 63px;
+}
+@media (max-width: 912px) {
+  .zahra-section .row .zahra .punya-zahra {
+    display: none;
+  }
+}
+
+.zahra-percaya {
+  margin-top: 115px;
+}
+.zahra-percaya .row .judul h3 {
+  color: #48494F;
+  font-weight: 600;
+  font-size: 34px;
+}
+.zahra-percaya .row .judul .text {
+  padding-top: 30px;
+  color: #676E87;
+  font-weight: 400;
+  font-size: 16px;
+}
+.zahra-percaya .row .judul .klik-aja {
+  color: #676E87;
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 199px;
+}
+
+.pics-section .header-pics {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+.pics-section .header-pics h3 {
+  color: #48494F;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.pics .row .kartu .card-uiux {
+  background: #F0F5FF;
+  border-radius: 20px;
+  border: #FFFFFF;
+}
+.pics .row .kartu .card-service {
+  background-color: #F5F0FF;
+  border-radius: 20px;
+  border: #FFFFFF;
+}
+.pics .row .kartu .card-body .user-img {
+  padding-top: 39px;
+  width: 180px;
+}
+.pics .row .kartu .card-body .nama {
+  font-size: 36px;
+  font-weight: 500;
+  padding-top: 37px;
+  margin-bottom: 49px;
+  color: #48494F;
+}
+.pics .row .kartu .card-body .card-text {
+  color: #676E87;
+  font-weight: 500;
+  font-size: 19px;
+  padding-bottom: 40px;
+}
+.pics .row .kartu .card-training {
+  background: #F1FADC;
+  border-radius: 20px;
+  border: #FFFFFF;
+}
+.pics .row .kartu .card-training .card-body .user-img {
+  padding-top: 39px;
+  width: 180px;
+}
+.pics .row .kartu .card-training .card-body .nama {
+  font-size: 36px;
+  font-weight: 500;
+  padding-top: 37px;
+  margin-bottom: 28px;
+  color: #48494F;
+}
+.pics .row .kartu .card-training .card-body .card-text {
+  color: #676E87;
+  font-weight: 500;
+  font-size: 19px;
+  padding-bottom: 32px;
+}/*# sourceMappingURL=style.css.map */
